@@ -1,0 +1,79 @@
+.HEADIN{
+    align-content: center;
+    color:rgb(25, 25, 143);
+    FONT-size: 50PX;
+}
+h2{
+    color:rgb(25, 25, 143);
+     /* text-decoration: underline;
+    text-decoration-color: gold;  */
+    position: relative;
+}
+h2:after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    display: block;
+    height: 5px;
+    background-color:gold;
+    bottom: -5px;
+  }
+.lis::before
+{
+  content: "->:";
+}
+.hi::before
+{
+    content: '\02706'
+    
+}
+.bi::before
+{
+    content:'@ '
+}        
+.fi::before
+{
+    content: '\1f6a9';
+}
+.gi::before
+{
+    content: '\1f4c6';
+}
+
+.di::after
+{
+    content: '| \1f310';
+    
+    
+}
+.a{
+    text-decoration:none;
+    
+}
+.b
+{
+    color: blue;
+}
+.lis::before{
+    color:black;
+}
+.lis
+{
+    margin: 20px;
+}
+
+.div
+{
+    font-size: px;
+    border: 1PX solid BLACK;
+    border-radius:5PX;
+    WIDTH:200px;
+    height: 20px;
+    padding: 1px;
+    margin: 4px;
+
+}
+table{
+    margin-left: 20px;
+}
+
