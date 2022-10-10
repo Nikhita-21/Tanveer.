@@ -42,7 +42,8 @@ h2:after {
 
 .di::after
 {
-    content: '| \1f310';
+    content: '|';
+    content: '\1f310';
     
     
 }
